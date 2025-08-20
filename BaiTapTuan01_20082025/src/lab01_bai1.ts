@@ -1,4 +1,4 @@
-class Person {
+abstract class Person {
     name: string;
     age: number;
 
@@ -7,15 +7,14 @@ class Person {
         this.age = age;
     }
 
-    getInfor(){
+    public getInfor(): string{
         return "My name is " + this.name + 
                 " and I'm" + this.age;
     }
 }
 
-const nhien = new Person("Nhien", 20)
-console.log(nhien.getInfor)
-
+// const nhien = new Person("Nhien", 20)
+// console.log(nhien.getInfor)
 
 
 

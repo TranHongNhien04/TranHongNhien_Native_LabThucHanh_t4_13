@@ -9,5 +9,5 @@ class Person {
             " and I'm" + this.age;
     }
 }
-const nhien = new Person("Nhien", 20);
-console.log(nhien.getInfor());
+// const nhien = new Person("Nhien", 20)
+// console.log(nhien.getInfor)
