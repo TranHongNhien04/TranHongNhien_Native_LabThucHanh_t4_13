@@ -1,4 +1,4 @@
-function simulateTask(time : number){
+ export default function simulateTask(time : number){
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve("Task done")
@@ -9,3 +9,4 @@ function simulateTask(time : number){
  simulateTask(5000).then((value)=>{
     console.log(value)
  })
+

@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = simulateTask;
 function simulateTask(time) {
     return new Promise((resolve) => {
         setTimeout(() => {
