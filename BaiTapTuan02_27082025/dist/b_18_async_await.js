@@ -1,17 +1,21 @@
 "use strict";
-async function fetchTask(id) {
+// type task = {
+//     id: number;
+//     name: string;
+// }
+async function fetchUser(id) {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve({
                 id,
-                name: `Task ${id}`
+                name: `User ${id}`
             });
         }, 1000);
     });
 }
-async function runFetchTask() {
-    console.log("Fetching task.....");
-    const task = await fetchTask(1);
-    console.log("Task fetched:", task);
+async function runFetchUser() {
+    console.log("Fetching.....");
+    const user = await fetchUser(1);
+    console.log("Fetched:", user);
 }
-runFetchTask();
+runFetchUser();
