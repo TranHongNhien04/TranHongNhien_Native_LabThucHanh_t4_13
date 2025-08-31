@@ -22,12 +22,12 @@
 
 // runFetchTask()
 
-type user = {
+export type user = {
     id: number;
     name: string;
 }
 
-async function fetchUser(id: number): Promise<user> {
+export async function fetchUser(id: number): Promise<user> {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve({
@@ -44,4 +44,4 @@ async function runFetchUser() {
     console.log("Fetched:", user)
 }
 
-runFetchUser()
+// runFetchUser()
