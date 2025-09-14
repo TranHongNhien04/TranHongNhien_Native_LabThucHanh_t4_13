@@ -6,4 +6,4 @@ export const stringPromise = new Promise<string>((resolve) => {
 
 // stringPromise.then((value) => {
 //     console.log(value)
-// });
+// });TranHongNhien_Native_LabThucHanh_t4_13/BaiTapTuan02_27082025/src/a_1_promise.ts
