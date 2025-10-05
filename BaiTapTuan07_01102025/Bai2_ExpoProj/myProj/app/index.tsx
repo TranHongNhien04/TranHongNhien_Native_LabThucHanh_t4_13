@@ -1,4 +1,3 @@
-// app/index.tsx
 import React from 'react';
 import { SafeAreaView, View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
 import { Link } from 'expo-router';
